@@ -1,10 +1,8 @@
-import { Fragment } from 'react'
-import PropTypes from "prop-types";
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
+import { NavLink } from 'react-router-dom'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 import { ABOUT, CONTACT, ROOT } from 'router/paths'
-import { Link, NavLink } from 'react-router-dom'
 import { classNames } from 'utils/helpers';
 
 // dummy data
